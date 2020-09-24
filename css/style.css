@@ -1,0 +1,44 @@
+* { 
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}  
+
+.menu {
+  background-color: rgb(121, 35, 118); 
+  padding: 5px;
+}
+
+.menu ul {
+  margin: 0;
+}
+
+.menu li {
+  display: inline;
+}
+
+.menu li a {
+  font-size:16px;
+  text-decoration: none;
+  padding: 10px;
+  color: #fff;
+  font-family: 'Baloo Tammudu 2', cursive;
+}
+
+.menu li a:hover {
+  background-color: rgb(172, 80, 169);
+  margin-top:-2px;
+  padding-bottom:10px;
+}
+
+.title, .subtitle {
+  font-family: 'Baloo Tammudu 2', cursive;
+  text-align: center;
+}
+
+.logo {
+  width: 10%;
+  height: auto;
+  display: block;
+  margin: auto;
+}
